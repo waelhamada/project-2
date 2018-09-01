@@ -1,0 +1,215 @@
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+*
+{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	
+	background-color: #fbfbfb;
+	height: 1000px
+	/*animation-name: bg_color;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;*/
+}
+
+
+nav img
+{
+	height: 50px;
+	width:192px;
+}
+
+nav a 
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: rgba(0,0,0,0.5);
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	
+}
+
+a:before
+{
+	content:attr(data-text);
+	color:#000;
+	position: absolute;
+	top:8px;
+	left:8px;
+	width:0%;
+	overflow: hidden;
+	display: inline-block;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+
+nav a:hover:before
+{
+	width:100%;
+	/*border-bottom:1px solid #000;	*/
+	
+}
+
+nav .nav-item .new_class2
+{
+	border:1px solid #000;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 3px;
+}
+
+
+nav .collapse form
+{
+	position: relative;
+}
+
+nav .collapse form input
+{
+	width: 200px;
+	
+}
+
+nav .collapse form .fa-search:before
+{
+	position: absolute;
+	top:10px;
+	right: 240px;
+}
+
+col-md-4 img
+{
+	width: 100px;
+	height: 83px;
+}
+
+.col-md-8 p
+{
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+
+
+.new_class ul
+{
+	list-style-type: none;
+	
+
+}
+
+.new_class ul li
+{
+	display: inline-block;
+	
+	
+}
+
+.new_class a .fa-th-large ,.fa-th-list
+{
+	font-size:20px;
+			
+}
+
+.new_class ul:after
+{
+    content: "";
+	height: 34px;
+	width: 100px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	position: absolute;
+	right: 45px;
+	top:0px
+}
+
+.card
+{
+	width: 233px;
+	height:223px;	
+	-webkit-box-shadow: 2px 2px 5px gray;
+	box-shadow: 2px 2px 5px gray;
+}
+
+.new_class ul .bg-dark
+{
+	border-radius: 0 5px 5px 0 ;
+}
+
+.card .card-body .class-p
+{
+	position: absolute;
+	bottom:0px;	
+	right:5px;
+	color:#c5c5c5;
+	font-size:14px;	
+}
+
+.card .card-body .class-p2
+{
+	position: absolute;
+	bottom:0px;	
+	left:5px;
+	font-size:14px;	
+}
+
+.eye
+{
+	width:100%;
+	height:90%;
+	background-color: rgba(0,0,0,0.6);
+	border:2px solid #ffc;
+	position: absolute;
+	top:0px;
+	left:0px;
+	color:white;
+	display: none;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.card:hover .eye
+{
+	display: block;
+}
+
+.col h2
+{
+	font-size:24px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.col ul
+{
+	list-style-type: none;
+	
+}
+
+.col ul li a
+{
+	color:#fff;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+.col ul li a:hover
+{
+	color:#09c;
+	text-decoration: none;
+}
+
+
+
+
+
